@@ -21,12 +21,11 @@ export default async function Home() {
       </Header>
       <div className="mt-2 mb-7 px-6">
         <div className="flex justify-between items-center">
-          <h1 className="text-white text-2xl font-semibold">Newest songs</h1>
+          <h1 className="text-white text-2xl font-semibold">
+            Newest songs
+          </h1>
         </div>
-        <div>
-          {songs.map((song) => <div>{song.title}</div>)}
-          <PageContent songs={songs} />
-        </div>
+        <PageContent songs={songs} />
       </div>
     </div>
   )
