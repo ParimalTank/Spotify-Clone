@@ -7,10 +7,5 @@
     ],
     "env": {
         "BRANCH": "withsubscription"
-    },
-    "alias": "spotify premium",
-    "regions": [
-        "us"
-    ],
-    "name": "spotify"
+    }
 }
